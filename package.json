@@ -2,6 +2,15 @@
 	"name": "eslint-plugin-byo",
 	"version": "1.0.0",
 	"description": "Like no-restricted-syntax but composable, shareable and individually togglable",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fregante/eslint-plugin-byo.git"
+	},
 	"type": "module",
 	"exports": "./index.js",
 	"files": [
@@ -10,16 +19,11 @@
 	"scripts": {
 		"test": "xo && node --test"
 	},
-	"keywords": [
-		"eslint",
-		"eslintplugin",
-		"eslint-plugin"
-	],
+	"devDependencies": {
+		"eslint": "^10.4.0",
+		"xo": "^2.0.2"
+	},
 	"peerDependencies": {
 		"eslint": ">=9"
-	},
-	"devDependencies": {
-		"eslint": "^9.27.0",
-		"xo": "^2.0.2"
 	}
 }
