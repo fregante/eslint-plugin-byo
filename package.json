@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-byo",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Like no-restricted-syntax but composable, shareable and individually togglable",
 	"type": "module",
 	"exports": "./index.js",
