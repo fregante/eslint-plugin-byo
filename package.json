@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-byo",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Like no-restricted-syntax but composable, shareable and individually togglable",
 	"keywords": [
 		"eslint",
