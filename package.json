@@ -1,0 +1,25 @@
+{
+	"name": "eslint-plugin-byo",
+	"version": "0.0.0",
+	"description": "Like no-restricted-syntax but composable, shareable and individually togglable",
+	"type": "module",
+	"exports": "./index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "xo && node --test"
+	},
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"peerDependencies": {
+		"eslint": ">=9"
+	},
+	"devDependencies": {
+		"eslint": "^9.27.0",
+		"xo": "^2.0.2"
+	}
+}
