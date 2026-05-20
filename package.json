@@ -15,6 +15,11 @@
 		"eslintplugin",
 		"eslint-plugin"
 	],
+	"xo": {
+		"rules": {
+			"unicorn/expiring-todo-comments": "off"
+		}
+	},
 	"peerDependencies": {
 		"eslint": ">=9"
 	},

@@ -1,7 +1,5 @@
 import test from 'node:test';
-
 import {RuleTester} from 'eslint';
-
 import byo from './index.js';
 
 test('byo supports one or more selector/message objects', () => {
