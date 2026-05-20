@@ -8,7 +8,7 @@
 		"index.js"
 	],
 	"scripts": {
-		"test": "node --test"
+		"test": "xo && node --test"
 	},
 	"keywords": [
 		"eslint",
@@ -19,6 +19,7 @@
 		"eslint": ">=9"
 	},
 	"devDependencies": {
-		"eslint": "^9.27.0"
+		"eslint": "^9.27.0",
+		"xo": "^0.60.0"
 	}
 }
