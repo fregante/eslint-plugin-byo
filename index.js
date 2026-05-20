@@ -30,19 +30,19 @@ const rule = {
 			messagesBySelector.set(selector, messages);
 		}
 
-		return Object.fromEntries(
-			[...messagesBySelector.entries()].map(([selector, messages]) => [
-				selector,
-				node => {
-					for (const message of messages) {
-						context.report({
-							node,
-							message,
-						});
-					}
-				},
-			]),
-		);
+		const selectors = [...messagesBySelector.entries()].map(([selector, messages]) => [
+			selector,
+			node => {
+				for (const message of messages) {
+					context.report({
+						node,
+						message,
+					});
+				}
+			},
+		]);
+
+		return Object.fromEntries(selectors);
 	},
 };
 
